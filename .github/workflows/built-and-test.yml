@@ -1,9 +1,13 @@
 name: Build and Test
+on:
+  workflow_dispatch:
 jobs:
   built and test jobs:
     runs-on: ubuntu-latest
   steps:
-    - name:list 
-      run:ls
-      
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: list 
+      run: ls
+
 
