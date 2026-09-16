@@ -2,7 +2,7 @@ name: Build and Test
 on:
   workflow_dispatch:
 jobs:
-  built-and-test jobs:
+  built-and-test-jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
