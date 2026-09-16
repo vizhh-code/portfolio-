@@ -4,10 +4,10 @@ on:
 jobs:
   built-and-test jobs:
     runs-on: ubuntu-latest
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-    - name: list 
-      run: ls
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: list 
+        run: ls
 
 
