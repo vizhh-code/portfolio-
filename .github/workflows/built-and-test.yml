@@ -1,0 +1,9 @@
+name: Build and Test
+jobs:
+  built and test jobs:
+    runs-on: ubuntu-latest
+  steps:
+    - name:list 
+      run:ls
+      
+
